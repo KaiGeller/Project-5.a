@@ -6,4 +6,4 @@ def multiply(num1, num2):
     """This function multiplies the two inputs together"""
     if num2 == 0:
         return 0
-    return multiply(num1, num2)
+    return num1 + multiply(num1, num2 - 1)
